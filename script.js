@@ -3,7 +3,7 @@ if(isNaN(idade)){
     idade = parseInt(prompt("o valor inserido esta incorreto, insira a sua idade novamente"))
 }
 let nome = prompt("Digite o seu o seu nome").toLowerCase()
-if(parseInt(nome)== 0 || parseInt(nome) !=0){
+if(nome == ""){
     nome = prompt("o nome inserido esta incorreto, insira o seu nome novamente")
 }
 
@@ -18,3 +18,4 @@ if (idade >= 18){
 }else{
    alert("Acesso negado. O conteúdo é exclusivo para maiores de 18 anos.")
 }
+
